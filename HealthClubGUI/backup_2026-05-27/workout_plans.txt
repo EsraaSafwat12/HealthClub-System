@@ -1,0 +1,2 @@
+1,113,Arwa,Coach Mohamed,General Fitness,2026-05-27,3 sets squats; 4 sets bench press; 20 min cardio,Squats~3~12~~Legs~Keep back straight
+2,113,Arwa,Coach Mohamed,General Fitness,2026-05-27,3 sets squats; 4 sets bench press; 20 min cardio,Squats~3~12~~Legs~Keep back straight|Bench Press~4~10~~Chest~Control the weight|Cardio~0~0~20 min~~Full Body

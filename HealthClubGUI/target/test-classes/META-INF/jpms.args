@@ -1,0 +1,4 @@
+--patch-module
+com.mycompany.healthclubgui=_
+--add-reads
+com.mycompany.healthclubgui=ALL-UNNAMED

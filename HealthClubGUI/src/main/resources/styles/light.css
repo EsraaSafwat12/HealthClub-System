@@ -1,0 +1,42 @@
+.root{
+    -fx-background-color: white;
+}
+
+.right-panel{
+    -fx-background-color: white;
+}
+
+.main-button{
+    -fx-background-color: linear-gradient(to right, #FF6B00, #FF9A3C);
+    -fx-text-fill: white;
+    -fx-background-radius: 25;
+    -fx-font-weight: bold;
+}
+
+.secondary-button{
+    -fx-background-color: transparent;
+    -fx-text-fill: #FF6B00;
+    -fx-border-color: #FF6B00;
+    -fx-border-radius: 22;
+    -fx-background-radius: 22;
+}
+
+.text-field,
+.password-field{
+
+    -fx-background-color: white;
+    -fx-text-fill: black;
+
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+}
+
+.label{
+    -fx-text-fill: black;
+}
+
+.orange-label{
+    -fx-text-fill: #FF6B00;
+    -fx-font-weight: bold;
+}

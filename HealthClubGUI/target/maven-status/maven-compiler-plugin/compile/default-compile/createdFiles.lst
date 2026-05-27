@@ -1,0 +1,16 @@
+com\mycompany\healthclubgui\ScreenTranslator.class
+com\mycompany\healthclubgui\SalaryScreen.class
+com\mycompany\healthclubgui\AdminScreen.class
+com\mycompany\healthclubgui\CoachScreen.class
+com\mycompany\healthclubgui\MemberScreen.class
+com\mycompany\healthclubgui\WorkoutPlanScreen.class
+com\mycompany\healthclubgui\NewFeaturesAdminTab.class
+com\mycompany\healthclubgui\ChartsPanel.class
+com\mycompany\healthclubgui\SplashScreen.class
+com\mycompany\healthclubgui\LoginScreen.class
+module-info.class
+com\mycompany\healthclubgui\AppState.class
+com\mycompany\healthclubgui\ContractPdfGenerator.class
+com\mycompany\healthclubgui\InventoryScreen.class
+com\mycompany\healthclubgui\AttendanceManager.class
+com\mycompany\healthclubgui\TranslationService.class
