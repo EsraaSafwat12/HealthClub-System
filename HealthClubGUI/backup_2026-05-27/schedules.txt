@@ -1,3 +1,0 @@
-1,113,Coach Mohamed,Cardio & Strength,2026-06-01
-2,114,Coach Mohamed,Flexibility,2026-06-02
-3,115,Coach Mohamed,Weight Loss,2026-06-03

@@ -1,4 +1,0 @@
-1,113,500.0,Monthly Subscription,2026-05-26,true
-2,114,500.0,Monthly Subscription,2026-05-26,false
-3,115,500.0,Monthly Subscription,2026-05-26,true
-4,222,700.0,Monthly Subscription,2026-05-26,true
