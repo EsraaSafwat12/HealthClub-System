@@ -15,14 +15,14 @@
 
 ## 📋 Table of Contents
 
-- [About](#about)
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [Tech Stack](#tech-stack)
-- [How to Run](#how-to-run)
-- [Project Structure](#project-structure)
-- [OOP Concepts](#oop-concepts)
-- [Team Members](#team-members)
+- [About](#-about)
+- [Features](#-features)
+- [Tech Stack](#️-tech-stack)
+- [How to Run](#️-how-to-run)
+- [Project Structure](#-project-structure)
+- [OOP Concepts](#-oop-concepts-used)
+- [Data Storage](#-data-storage)
+- [Team Members](#-team-members)
 
 ---
 
@@ -50,7 +50,7 @@ Designed with a clean, modern UI that supports **15 languages** including Arabic
 | 📅 Attendance | PIN-based daily check-in/check-out tracking |
 | 📦 Inventory | Manage stock with low-quantity alerts and sales tracking |
 | 💰 Salaries | Manage and track coach salaries |
-| 🔐 Login History | View all login attempts (success/failed) with timestamps |
+| 🔐 Login History | View all login attempts with timestamps |
 | 🎟️ Coupons | Create discount coupons |
 | ❄️ Freeze Membership | Freeze/unfreeze member subscriptions |
 | 👨‍👩‍👧 Family Packages | Group memberships for families |
@@ -64,11 +64,11 @@ Designed with a clean, modern UI that supports **15 languages** including Arabic
 
 | Feature | Description |
 |---------|-------------|
-| 👥 My Members | View all assigned members with status (Active/Expired/Warning) |
+| 👥 My Members | View assigned members with status (Active/Expired/Warning) |
 | 📅 Add Schedule | Create training sessions for members |
 | 📋 View Schedules | View all upcoming sessions |
-| 💬 Messages | Send messages to all members + view inbox from members |
-| 🏋️ Workout Plans | Create detailed workout plans with exercises, export to TXT/WhatsApp |
+| 💬 Messages | Send messages to members + view inbox from members |
+| 🏋️ Workout Plans | Create detailed plans with exercises, export to TXT/WhatsApp |
 | 📊 Attendance | Track member attendance |
 | ⚙️ Update Info | Update personal information and password |
 
@@ -77,7 +77,7 @@ Designed with a clean, modern UI that supports **15 languages** including Arabic
 | Feature | Description |
 |---------|-------------|
 | 🏠 Dashboard | Personal overview with subscription status and stats |
-| 📅 Subscription | View status (Active/Warning/Expired) + self-renewal option |
+| 📅 Subscription | View status (Active/Warning/Expired) + self-renewal |
 | 🏋️ My Schedules | View all assigned training sessions |
 | 💬 Messages | Receive messages from coach + send messages to coach |
 | 💳 My Bills | View billing history with paid/unpaid summary |
@@ -88,9 +88,8 @@ Designed with a clean, modern UI that supports **15 languages** including Arabic
 
 ## 🌍 Multi-Language Support (15 Languages)
 
-| | | |
-|--|--|--|
 | 🇬🇧 English | 🇸🇦 العربية | 🇫🇷 Français |
+|------------|------------|-------------|
 | 🇪🇸 Español | 🇩🇪 Deutsch | 🇮🇹 Italiano |
 | 🇧🇷 Português | 🇹🇷 Türkçe | 🇨🇳 中文 |
 | 🇯🇵 日本語 | 🇰🇷 한국어 | 🇷🇺 Русский |
@@ -160,15 +159,14 @@ HealthClub-System/
 │   │   ├── CoachScreen.java                # Coach panel
 │   │   ├── MemberScreen.java               # Member panel
 │   │   ├── SplashScreen.java               # Animated intro screen
-│   │   ├── AppState.java                   # Global app state (theme, language)
+│   │   ├── AppState.java                   # Global app state
 │   │   ├── AttendanceManager.java          # Attendance logic
 │   │   ├── WorkoutPlanScreen.java          # Workout plan builder
 │   │   ├── InventoryScreen.java            # Inventory management
 │   │   ├── SalaryScreen.java               # Salary management
 │   │   ├── ChartsPanel.java                # Revenue & attendance charts
 │   │   ├── ContractPdfGenerator.java       # PDF contract generation
-│   │   ├── TranslationService.java         # Multi-language engine
-│   │   └── ScreenTranslator.java           # UI translation handler
+│   │   └── TranslationService.java         # Multi-language engine
 │   └── pom.xml
 │
 └── healthclubsystem/                       # Core Java Library
@@ -185,13 +183,6 @@ HealthClub-System/
     │   ├── InventoryItem.java              # Inventory model
     │   ├── Salary.java                     # Salary model
     │   ├── Attendance.java                 # Attendance model
-    │   ├── Coupon.java                     # Coupon model
-    │   ├── FrozenMembership.java           # Freeze logic
-    │   ├── FamilyPackage.java              # Family package model
-    │   ├── Referral.java                   # Referral system
-    │   ├── SplitPayment.java               # Split payment model
-    │   ├── DigitalContract.java            # Contract model
-    │   ├── BodyProgress.java               # Body tracking model
     │   └── Reportable.java                 # Interface for PDF reports
     └── pom.xml
 ```
@@ -230,7 +221,7 @@ All data is stored locally in `.txt` files (CSV format):
 | `pins.txt` | Attendance PINs |
 | `login_history.txt` | Login activity log |
 
-> Auto-backup is created daily in a `backup_YYYY-MM-DD/` folder.
+> 💡 Auto-backup is created daily in a `backup_YYYY-MM-DD/` folder.
 
 ---
 
